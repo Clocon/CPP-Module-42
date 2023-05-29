@@ -6,7 +6,7 @@
 /*   By: lumorale <lumorale@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 11:51:23 by lumorale          #+#    #+#             */
-/*   Updated: 2023/05/03 17:36:19 by lumorale         ###   ########.fr       */
+/*   Updated: 2023/05/03 19:15:17 by lumorale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@
 
 int	main(void) {
 	PhoneBook	book;
-	std::string	input = "";
+	std::string	input;
+	std::string	tmp;
 	book.welcome();
 	while (input.compare("EXIT") && input.compare("exit")) {
 		if (!input.compare("ADD") || !input.compare("add"))

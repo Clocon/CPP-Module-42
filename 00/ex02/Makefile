@@ -6,17 +6,18 @@
 #    By: lumorale <lumorale@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/01 13:04:26 by lumorale          #+#    #+#              #
-#    Updated: 2023/05/04 09:58:39 by lumorale         ###   ########.fr        #
+#    Updated: 2023/05/04 13:51:17 by lumorale         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME			=	megaphone
+NAME			=	Account
 
 CC				=	c++
 CFLAGS			=	-Wall -Werror -Wextra -std=c++98
 RM				=	rm -f
 
-SRCS			=	megaphone.cpp\
+SRCS			=	src/Account.cpp\
+					src/tests.cpp\
 					
 					
 

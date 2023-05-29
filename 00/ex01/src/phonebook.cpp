@@ -6,7 +6,7 @@
 /*   By: lumorale <lumorale@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/03 12:24:25 by lumorale          #+#    #+#             */
-/*   Updated: 2023/05/03 17:20:30 by lumorale         ###   ########.fr       */
+/*   Updated: 2023/05/03 19:02:40 by lumorale         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,8 @@ void	PhoneBook::print(void) const {
 }
 
 int	PhoneBook::readInput(void) const {
-	int		input;
-	bool	valid = false;
+	int			input;
+	bool		valid = false;
 
 	while (!valid){
 		std::cout << "Enter a contact index: " << std::flush;
